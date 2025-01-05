@@ -2,7 +2,7 @@
 
 This is a simple application to correct the DateTime Exif tags of a photo.  
 
-Set a source Folder and a destination folder. The application will copy the files from the source folder to the destination folder and correct the DateTime Exif tags of the photo if needed.
+Set a source Folder and a destination folder. The application will enumerate all .jpg files from the source folder, it will correct the DateTime Exif tags of the photo if needed and copy to the destination folder.  
 To get the correct DateTime, the application will analyze it's name and the DateTimeOriginal.
 
 It will extract the *correct* DataTime from the file name, like :
